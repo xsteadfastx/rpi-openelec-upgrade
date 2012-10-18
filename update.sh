@@ -44,14 +44,6 @@ fi
 mv $foldername/target/* /storage/.update/
 echo -e "\nOpenELEC files succesfully moved to update directory"
 
-# check for newer bootcode
-if [ -d $foldername/3rdparty ]; then
-    mount -o remount,rw /flash
-    mv $foldername/3rdparty/* /flash/
-    mount -o remount,ro /flash
-    echo -e "\nNewer bootcode installed"
-fi
-
 # clean up
 rm -r $foldername
 rm $last_filename
