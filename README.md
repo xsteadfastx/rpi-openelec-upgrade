@@ -1,7 +1,7 @@
 rpi-openelec-upgrade
 ====================
 
-Script to update to the latest nightly version of openelec for the Raspberry Pi in a SSH-Session. There is a threat in the openelec forums about a update script (http://openelec.tv/forum/133-installation/42383-update-script-for-openelec-on-raspberry-pi) but no central place to get it. So i thought to gather everything in a git repo. So thank everyone in the tread...
+Script to update to the latest nightly version of openelec for the Raspberry Pi in a SSH-Session. There is a thread in the openelec forums about a update script (http://openelec.tv/forum/133-installation/42383-update-script-for-openelec-on-raspberry-pi) but no central place to get it. So i thought to gather everything in a git repo. So thank everyone in the original thread...
 
 Using it
 --------
