@@ -4,10 +4,10 @@
 cd /storage
 
 # location of the nightlies
-url="http://sources.openelec.tv/tmp/image/openelec-rpi/"
+url="http://sources.openelec.tv/tmp/image/"
 
 # get base, revision and filename of last build
-last_base=`curl -s $url | grep .tar.bz2 | sed 's/.*\(OpenELEC.*\).tar.bz2.*/\1/' | sort | tail -1`
+last_base=`curl -s $url | grep .tar.bz2 | sed 's/.*\(OpenELEC-RPi.*\).tar.bz2.*/\1/' | sort | tail -1`
 last_revision=`echo $last_base | sed 's/.*\(r[0-9]*\)/\1/'`
 last_filename=$last_base.tar.bz2
 
