@@ -35,6 +35,11 @@ echo -e  "Download complete\n"
 echo "Uncompressing tarball, files extracted:"
 tar -xvjf $last_filename
 
+# check if image folder exists, otherwise exit
+if [ ! -d $foldername ]; then
+   exit
+fi
+
 # check if .update folder exists, otherwise create it
 if [ ! -d /storage/.update ]; then
     mkdir /storage/.update
