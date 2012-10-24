@@ -37,6 +37,7 @@ tar -xvjf $last_filename
 
 # check if image folder exists, otherwise exit
 if [ ! -d $foldername ]; then
+   echo "Cannot find extracted folder."
    exit
 fi
 
