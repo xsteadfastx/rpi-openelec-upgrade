@@ -26,6 +26,14 @@ else
     echo "Update required, will download latest version."
 fi
 
+# clean up previously interrupted update
+if [ -a $last_filename ]; then
+    rm $last_filename
+fi
+if [ -a $foldername ]; then
+    rm -r $foldername
+fi
+
 # download corresponding file to working directory
 urltolast=$url/$last_filename
 wget $urltolast
