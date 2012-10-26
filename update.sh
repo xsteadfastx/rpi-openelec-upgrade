@@ -28,9 +28,11 @@ fi
 
 # clean up previously interrupted update
 if [ -a $last_filename ]; then
+    echo "Clean up previously interrupted update files."
     rm $last_filename
 fi
 if [ -a $foldername ]; then
+    echo "Clean up previously interrupted update files."
     rm -r $foldername
 fi
 
