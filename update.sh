@@ -33,7 +33,7 @@ if [ -a $last_filename ]; then
 fi
 if [ -a $foldername ]; then
     echo "Clean up previously interrupted update files."
-    rm -r $foldername
+    rm -rf $foldername
 fi
 
 # download corresponding file to working directory
