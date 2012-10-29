@@ -7,7 +7,7 @@ Using it
 --------
 
 1. Login to your Raspberry Pi using SSH
-2. Download the update.sh script with `wget https://raw.github.com/xsteadfastx/rpi-openelec-upgrade/master/update.sh`
+2. Download the update.sh script with `curl https://raw.github.com/xsteadfastx/rpi-openelec-upgrade/master/update.sh > update.sh`
 3. Make it with `chmod +x update.sh` executable
 4. Running it with `./update.sh`
 
