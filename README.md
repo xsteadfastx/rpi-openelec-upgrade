@@ -14,4 +14,9 @@ Using it
 Warning
 -------
 
-Use it on your own risk!!! 
+Use it on your own risk!!!
+
+Alternatives
+------------
+
+I found out that there is a really awesome Update script from ericab under https://github.com/wavrunrx/OpenELEC_Dev 
